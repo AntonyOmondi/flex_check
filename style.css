@@ -104,4 +104,24 @@ form button:hover {
     color: rgb(190, 47, 47);
     cursor: pointer;
 }
+.services{
+    position: relative;
+    display: flex;
+    background-color: rgb(134, 75, 75);
+    justify-content: space-between;
+    padding: 1.5rem;
+    border: 2px solid rgb(170, 68, 68);
+    width: 90vw;
+    margin-bottom: 5rem;
+
+}
+img{ 
+    border-radius: .5rem;
+    width: 90%;
+}
+.title{
+    text-align: center;
+    padding-bottom: 2rem;
+    
+}
 

@@ -118,10 +118,11 @@ form button:hover {
 img{ 
     border-radius: .5rem;
     width: 90%;
+    padding-left: 2px;
 }
 .title{
     text-align: center;
     padding-bottom: 2rem;
-    
+    top: 20rem
 }
 

@@ -144,16 +144,15 @@ img:hover {
 .services{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
-    top:30rem;
+    top:32rem;
     width: 100%;
-    background-color:  rgb(190, 47, 47);
-    border: 1px solid black;
 }
 img{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 25vw;
     padding: 2px;
 
@@ -174,15 +173,38 @@ img{
     text-align: center;
     border: 1px solid black;
     width: 82%;
-}
+    background-color: rgb(190, 47, 47);
+    border-radius: 1rem;
+}   
 .content p{
     text-align: center;
     border: 1px solid black;
     width: 82%;
     padding: 1rem;
+    background-color: rgb(190, 47, 47);
+    border-radius: 1rem;
+}
+.content h1:hover{
+    border-color: rgb(190, 47, 47);
+    color: rgb(190, 47, 47);
+    background-color: #fff;
+    cursor: pointer;
+}
+.content p:hover{
+    border-color: rgb(190, 47, 47);
+    color: rgb(190, 47, 47);
+    background-color: #fff;
+    cursor: pointer;
 }
 img{
     border: 1px solid black;
     padding: 5px;
     border-radius: 1.5rem;
+    background-color: rgb(190, 47, 47);
+}
+img:hover {
+    border-radius: .5rem;
+    width: 100%;
+    flex-direction: column;
+    cursor: pointer;
 }

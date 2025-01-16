@@ -104,7 +104,7 @@ form button:hover {
     color: rgb(190, 47, 47);
     cursor: pointer;
 }
-.services{
+/* .services{
     position: relative;
     display: flex;
     background-color: rgb(134, 75, 75);
@@ -118,24 +118,71 @@ form button:hover {
 img{ 
     border-radius: .5rem;
     width: 90%;
-    padding-left: 2px;
+    border: 1px solid red;
+    display: inline-block;
+}
+img:hover {
+    border-radius: .5rem;
+    width: 100%;
+    flex-direction: column;
 }
 .title{
     text-align: center;
     padding-bottom: 2rem;
-    top: 20rem
+    top: 1rem;
+    font-size: 30px;
+    color: rgb(190, 47, 47);
+    background-color: #491414;
+    width: 98%;
+    padding: 1.5rem;
 }
 .content{
+    color: black;
+    text-align: center;
+} */
 
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: rgba(0,0,0,0.5);
+.services{
     display: flex;
-    justify-content: centera;
     align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top:30rem;
+    width: 100%;
+    background-color:  rgb(190, 47, 47);
+    border: 1px solid black;
 }
+img{
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    padding: 2px;
 
-
+}
+.title{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 29rem;
+    text-align: center;
+    color: rgb(6, 5, 5);
+    font-size: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: rgb(190, 47, 47);
+}
+.content h1 {
+    text-align: center;
+    border: 1px solid black;
+    width: 82%;
+}
+.content p{
+    text-align: center;
+    border: 1px solid black;
+    width: 82%;
+    padding: 1rem;
+}
+img{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 1.5rem;
+}
